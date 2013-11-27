@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/texture.dir/texture.c.o  -o texture  -L/Users/REN/glew-1.10.0/lib  -lGLEW -framework GLUT -framework Cocoa -framework AGL -framework OpenGL -lm 

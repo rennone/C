@@ -1,0 +1,16 @@
+# Makefile
+CC = gcc
+FLAGS   = -Wall -02 -o
+OBJS 	= main.o print.o
+PROGRAM = hello
+
+all: $(PROGRAM)
+
+$(PROGRAM): $(OBJS)
+	$(CC) $(FLAGS) $(PROGRAM) $(OBJS)
+
+main.o: main.c
+	gcc -c main.c
+
+print.o: print.c
+	gcc -c print.c

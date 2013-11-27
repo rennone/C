@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/mpiSample1.dir/mpiSample1.c.o  -o mpiSample1  -L/opt/local/mpich2/lib  /opt/local/mpich2/lib/libmpichcxx.a /opt/local/mpich2/lib/libpmpich.a /opt/local/mpich2/lib/libmpich.a /opt/local/mpich2/lib/libopa.a /opt/local/mpich2/lib/libmpl.a /usr/lib/libpthread.dylib 

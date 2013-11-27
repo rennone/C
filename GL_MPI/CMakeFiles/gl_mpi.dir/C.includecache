@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/REN/C/GL_MPI/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+GL/glew.h
+-
+GL/glut.h
+-
+mpi.h
+-
+
+/opt/local/mpich2/include/mpi.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/opt/local/mpich2/include/mpio.h
+mpicxx.h
+/opt/local/mpich2/include/mpicxx.h
+
+/opt/local/mpich2/include/mpicxx.h
+stdio.h
+-
+
+/opt/local/mpich2/include/mpio.h
+mpi.h
+/opt/local/mpich2/include/mpi.h
+

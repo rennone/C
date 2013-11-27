@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/REN/C/fdtd/fdtdTE.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+fdtdTE.h
+/Users/REN/C/fdtd/fdtdTE.h
+field.h
+/Users/REN/C/fdtd/field.h
+
+/Users/REN/C/fdtd/fdtdTE.h
+complex.h
+-
+
+/Users/REN/C/fdtd/field.h
+math.h
+-
+

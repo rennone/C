@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/REN/C/mpi-fdtd1D/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+mpi.h
+-
+math.h
+-
+GL/glut.h
+-
+unistd.h
+-
+
+/opt/local/mpich2/include/mpi.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/opt/local/mpich2/include/mpio.h
+mpicxx.h
+/opt/local/mpich2/include/mpicxx.h
+
+/opt/local/mpich2/include/mpicxx.h
+stdio.h
+-
+
+/opt/local/mpich2/include/mpio.h
+mpi.h
+/opt/local/mpich2/include/mpi.h
+

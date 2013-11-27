@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/REN/C/fdtd/fdtdTE_upml.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+fdtdTE_upml.h
+/Users/REN/C/fdtd/fdtdTE_upml.h
+field.h
+/Users/REN/C/fdtd/field.h
+models.h
+/Users/REN/C/fdtd/models.h
+
+/Users/REN/C/fdtd/fdtdTE_upml.h
+complex.h
+-
+
+/Users/REN/C/fdtd/field.h
+stdio.h
+-
+complex.h
+-
+
+/Users/REN/C/fdtd/models.h
+
